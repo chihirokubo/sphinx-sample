@@ -1,0 +1,19 @@
+{
+    "python.pythonPath": "/usr/local/bin/python",
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "/usr/local/bin/flake8",
+    "python.linting.flake8Args": [
+        "--ignore=E203,E402,E501",
+        "--max-line-length=120"
+    ],
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "/usr/local/bin/black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "120"
+    ],
+    "[python]": {
+        "editor.formatOnSave": true
+    },
+}
